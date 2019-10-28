@@ -1,0 +1,35 @@
+.square-container {
+  margin: 2px;
+  width: 16px;
+  height: 16px;
+  background: rgb(29, 29, 29);
+  box-shadow: rgb(0, 0, 0) 0px 0px 2px;
+
+  &.red {
+    background-color: #eb4034;
+  }
+
+  &.yellow {
+    background-color: #ebb734;
+  }
+
+  &.green {
+    background-color: #65eb34;
+  }
+
+  &.blue {
+    background-color: #3486eb;
+  }
+
+  &.purple {
+    background-color: #b734eb;
+  }
+
+  &.transition {
+    background-color: rgb(29, 29, 29);
+    -webkit-transition:background-color 2s ease;
+    -moz-transition:background-color 2s ease;
+    -o-transition:background-color 2s ease;
+    transition:background-color 2s ease;
+  }
+}

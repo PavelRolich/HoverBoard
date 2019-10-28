@@ -1,0 +1,9 @@
+<div class="container">
+  <mat-grid-list class="grid-list" cols="20" rowHeignt="20px">
+    <ng-container *ngFor="let square of squareList">
+      <mat-grid-tile class="grid-tile">
+        <app-square [backgroundColorInput]="square"></app-square>
+      </mat-grid-tile>
+    </ng-container>
+  </mat-grid-list>
+</div>

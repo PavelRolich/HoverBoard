@@ -1,0 +1,14 @@
+.container {
+  margin: auto;
+
+  .grid-list {
+    margin: auto;
+    padding: 0 !important;
+    width: 500px;
+
+    .grid-tile {
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
